@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DialerApp!</string>
+    <string name="app_name">Voice2Korea</string>
+    <string name="end">End</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Dialer settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="recentCalls_empty">아무 통화 기록 없음</string>
+    <string name="call">Call</string>
+    <string name="Username">사용자 아이디</string>
+    <string name="Password">비밀번호</string>
+    <string name="Signin">로그인</string>
+    <string name="Keepmesignin">로그인 상태 유지</string>
+    <string name="signupfornewaccount">계정만들기</string>
+    <string name="Proceed">계속하기</string>
+    <string name="Cancel">취소</string>
+    <string name="Home">홈</string>
+    <string name="checkdataconnection">Wi-Fi 또는 3G 네트워크 연결 상태를 확인하십시오.</string>
+    <string name="accessnumberwithdata">Wi-Fi 또는 3G 네트워크 연결 상태를 확인하십시오. 그렇지 않으면 통화는 Voice2Korea 로컬 접속번호로 자동 연결됩니다.</string>
+    <string name="NetworkError">네트워크 오류</string>
+    <string name="proceed">계속하기</string>
+    <string name="home">홈</string>
+    <string name="errorinvalid">오류</string>
+    <string name="signout">로그아웃</string>
+    <string name="minavailmobile">한국 이동/070전화 착신 통화 가능 시간</string>
+    <string name="minavailland">한국 유선전화 착신 통화 가능 시간</string>
+</resources>

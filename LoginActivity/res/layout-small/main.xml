@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/balance_registration_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/balance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/RegisteredStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unregistered" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <EditText android:textSize="25.0sp" android:textColor="@color/dialer_button_text" android:gravity="center" android:id="@id/digits" android:background="@drawable/btn_dial_textfield" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="43.0dip" android:maxLines="1" android:scrollHorizontally="true" android:freezesText="true" android:layout_weight="0.0" />
+    <include layout="@layout/dialpad" />
+    <include layout="@layout/voicemail_dial_delete" />
+</LinearLayout>

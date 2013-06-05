@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/EndHidelayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/View01" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <Button android:id="@id/btnEnd" android:background="@drawable/end_call" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/View02" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <Button android:id="@id/btnHide" android:background="@drawable/hidebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/View03" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+</LinearLayout>

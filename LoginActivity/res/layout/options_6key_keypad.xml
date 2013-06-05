@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center_horizontal" android:id="@id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ToggleButton android:id="@id/btnMute" android:background="@drawable/mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+        <ImageButton android:id="@id/btnKeypad" android:background="@drawable/breezeinterfacegreykeypad" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ToggleButton android:id="@id/btnSpeaker" android:background="@drawable/speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+    </TableRow>
+    <TableRow android:id="@id/TableRow01" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/btnTransfer" android:background="@drawable/breezeinterfacegreytransfer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ToggleButton android:id="@id/btnHold" android:background="@drawable/hold" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+        <ImageButton android:id="@id/btnMoreOptions" android:background="@drawable/breezeinterfacegreymoreoptions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+</TableLayout>

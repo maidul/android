@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Check Box Preferences" android:key="checkbox_pref"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Opt 1" android:key="pref_opt1" android:summary="option 1" android:defaultValue="true" />
+    <CheckBoxPreference android:title="Opt 2" android:key="pref_opt2" android:summary="option 2" />
+    <CheckBoxPreference android:title="Opt 3" android:key="pref_opt3" android:summary="option 3" />
+</PreferenceScreen>

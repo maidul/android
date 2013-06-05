@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>VoIP</item>
+        <item>Pinless</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>VoIP</item>
+        <item>Pinless</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="codec_array">
+        <item>@string/codecG729_title</item>
+        <item>@string/codecG711_title</item>
+    </string-array>
+    <string-array name="codec_values">
+        <item>@string/codecG729_title</item>
+        <item>@string/codecG711_title</item>
+    </string-array>
+</resources>

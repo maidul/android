@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CustomDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/box</item>
+    </style>
+    <style name="BackGroundDialogTheme" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#ff323331</item>
+    </style>
+    <style name="CustomTheme" parent="@*android:style/Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+</resources>

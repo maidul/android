@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/layoutincall" android:background="@drawable/androidoutcalling_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.5sp" android:textColor="@*android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/txtcallnumber" android:background="@*android:color/transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="60.0sp" android:text="" android:singleLine="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@*android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/txtstatus" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="25.0sp" android:text="0:00" android:singleLine="true" />
+    <View android:layout_width="0.0px" android:layout_height="5.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/addkeypad" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/addbuttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/add_callwaitingbuttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+</LinearLayout>

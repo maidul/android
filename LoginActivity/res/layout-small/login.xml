@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/green_connected_background_nologo" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ipsmarxlogo" />
+    <View android:id="@id/View1" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_below="@id/imageView1" />
+    <EditText android:textSize="18.0sp" android:id="@id/txt_username" android:layout_width="350.0dip" android:layout_height="wrap_content" android:text="" android:hint="@string/Username" android:singleLine="true" android:layout_below="@id/View1" android:layout_alignParentRight="true" />
+    <EditText android:textSize="18.0sp" android:id="@id/txt_password" android:layout_width="350.0dip" android:layout_height="wrap_content" android:text="" android:hint="@string/Password" android:password="true" android:singleLine="true" android:layout_below="@id/txt_username" android:layout_alignParentRight="true" />
+    <Button android:id="@id/btn_sign_in" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/Signin" android:layout_below="@id/txt_password" android:layout_alignParentRight="true" />
+    <CheckBox android:id="@id/chk_sign_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/Keepmesignin" android:layout_below="@id/btn_sign_in" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/text_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signupfornewaccount" android:layout_below="@id/chk_sign_in" android:layout_alignParentRight="true" />
+</RelativeLayout>

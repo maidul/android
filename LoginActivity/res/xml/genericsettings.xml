@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:enabled="true" android:singleLine="true" android:title="Display Name" android:key="DispName" />
+    <EditTextPreference android:enabled="true" android:singleLine="true" android:title="Username" android:key="SipId" />
+    <EditTextPreference android:enabled="true" android:singleLine="true" android:title="Authentication Id" android:key="AuthId" />
+    <EditTextPreference android:enabled="true" android:password="true" android:singleLine="true" android:title="Password" android:key="Password" />
+    <EditTextPreference android:persistent="true" android:enabled="true" android:singleLine="true" android:title="Server IP Address" android:key="ServerIP" />
+    <PreferenceScreen android:title="More Options" android:key="moreoptions" android:summary="Dial Plan, Codecs, Access Numbers">
+        <PreferenceScreen android:title="Dial Plan" android:key="dialplan" android:summary="Settings for which calls routed through SIP">
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule1" android:key="rule1" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule2" android:key="rule2" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule3" android:key="rule3" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule4" android:key="rule4" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule5" android:key="rule5" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule6" android:key="rule6" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule7" android:key="rule7" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule8" android:key="rule8" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule9" android:key="rule9" />
+            <EditTextPreference android:hint="416=1416" android:singleLine="true" android:title="Rule10" android:key="rule10" />
+        </PreferenceScreen>
+        <ListPreference android:entries="@array/listArray" android:title="Make Calls using" android:key="CallLicenseTypeLocal" android:summary="Select the method of calling" android:defaultValue="Both" android:entryValues="@array/listValues" />
+        <EditTextPreference android:enabled="true" android:singleLine="true" android:title="Access Number" android:key="AccessNumber" />
+        <PreferenceScreen android:title="@string/codec_title" android:key="selectcodec" android:summary="Settings for codec quality">
+            <PreferenceCategory android:title="Priority 1">
+                <ListPreference android:entries="@array/codec_array" android:title="Codec" android:key="codec1" android:order="1" android:defaultValue="@string/codecG729_title" android:entryValues="@array/codec_values" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Priority 2">
+                <ListPreference android:entries="@array/codec_array" android:title="Codec" android:key="codec2" android:order="2" android:defaultValue="@string/codecG711_title" android:entryValues="@array/codec_values" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceScreen>
+</PreferenceScreen>

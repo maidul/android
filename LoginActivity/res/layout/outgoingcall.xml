@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/addkeypad" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:layout_gravity="center_horizontal" android:id="@id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:id="@id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:gravity="center_horizontal" android:id="@id/End_button" android:background="@drawable/end_call_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+                <ImageButton android:id="@id/btnTransfer" android:background="@drawable/transfer_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+                <Button android:gravity="center_horizontal" android:id="@id/btnKeypad" android:background="@drawable/dialpad_new" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <View android:layout_width="0.0dip" android:layout_height="5.0dip" android:layout_span="5" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow01" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ToggleButton android:id="@id/btnHold" android:background="@drawable/hold_new" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+                <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+                <ToggleButton android:id="@id/btnMute" android:background="@drawable/mute_new" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+                <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+                <ToggleButton android:id="@id/btnSpeaker" android:background="@drawable/speaker_new" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>
